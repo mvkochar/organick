@@ -1,0 +1,68 @@
+.home-main {
+    padding-top: 247px;
+    padding-bottom: 246px;
+    padding-left: 260px;
+    background: url("/public/images/home-main.png") no-repeat;
+}
+
+.home-bl-above {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #68A47F;
+}
+
+.home-bl-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    color: #274C5B;
+}
+
+.home-main .home-bl-title {
+    margin-top: 8px;
+    margin-bottom: 23px;
+}
+
+.home-banner {
+    width: fit-content;
+    margin: 154px auto;
+    margin-bottom: 0;
+    gap: 36px;
+}
+
+.home-natural,
+.home-offer {
+    width: 682.24px;
+    padding-top: 109px;
+    padding-bottom: 110px;
+    padding-left: 54.58px;
+}
+
+.home-natural {
+    background: url('/public/images/home-naural-bg.png') no-repeat;
+}
+
+.home-natural .home-bl-above {
+    color: #fff;
+}
+
+.home-natural-title,
+.home-offer-title {
+    margin-top: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.home-natural-title {
+    color: #fff;
+}
+
+.home-offer {
+    background: url('/public/images/home-offer-bg.png') no-repeat;
+}
+
+.home-offer-title {
+    color: #274C5B;
+}
