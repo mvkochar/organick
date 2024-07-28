@@ -1,0 +1,57 @@
+.products-item {
+    width: 335.09px;
+    height: 483px;
+    padding-top: 29px;
+    padding-bottom: 17px;
+    background-color: #F9F8F8;
+    flex-direction: column;
+}
+
+.products-item-category {
+    width: fit-content;
+    margin-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #274C5B;
+    border-radius: 8px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+}
+
+.products-item-title {
+    margin-left: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #274C5B;
+}
+
+.products-item-info {
+    margin-left: 30px;
+    margin-right: 26px;
+    padding-top: 6px;
+    border-top: 1px solid #DEDDDD;
+}
+
+.products-item-price {
+    gap: 8px;
+
+    .old-price {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        text-decoration: line-through;
+        color: #B8B8B8;
+    }
+
+    .curent-price {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #274C5B;
+    }
+}

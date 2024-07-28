@@ -69,6 +69,10 @@ body {
   background-color: #EFD372;
 }
 
+.action-wr__dark {
+  background-color: #274C5B;
+}
+
 .action-text {
   display: block;
   margin-top: -7px;
@@ -76,4 +80,8 @@ body {
   font-weight: 700;
   font-size: 22px;
   color: #274C5B;
+}
+
+.action-wr__dark .action-text {
+  color: #fff;
 }
