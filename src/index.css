@@ -53,6 +53,7 @@ body {
 
 .action-wr {
   width: fit-content;
+  height: 79px;
   padding-top: 28px;
   padding-bottom: 29px;
   padding-left: 39px;
@@ -73,6 +74,11 @@ body {
   background-color: #274C5B;
 }
 
+.action-wr__transparent {
+  background-color: transparent;
+  border: 2px solid #274C5B;
+}
+
 .action-text {
   display: block;
   margin-top: -7px;
@@ -85,3 +91,4 @@ body {
 .action-wr__dark .action-text {
   color: #fff;
 }
+

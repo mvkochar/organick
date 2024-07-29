@@ -10,12 +10,13 @@ type ProductsItemProps = {
     salePrice: string
     price: string
     rating: number
+    bgcolor?: string
 }
 
 const ProductsItem = ({ id, category, image, title, isSale,
-    salePrice, price, rating }: ProductsItemProps) => {
+    salePrice, price, rating, bgcolor = "#F9F8F8" }: ProductsItemProps) => {
     return (
-        <div className='products-item d-f jc-sb'>
+        <div className='products-item d-f jc-sb' style={{backgroundColor: bgcolor}}>
             <div className="products-item-category">{category}</div>
             <div><img src={image} alt="product" width={335} height={324} /></div>
             <div className="products-item-title">{title}</div>
