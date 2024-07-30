@@ -1,0 +1,51 @@
+.newsletter {
+    width: 1440px;
+    height: 323px;
+    margin: 185px auto;
+    margin-bottom: 0;
+    padding: 105px 71px;
+    background: url("/public/images/subscribe-bg.png") no-repeat;
+    border-radius: 31px 34px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter_title {   
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #fff;
+}
+
+.newsletter_fm {
+    input {
+        width: 349px;
+        padding-top: 38px;
+        padding-bottom: 31px;
+        padding-left: 23px;
+        background-color: #fff;
+        border: none;
+        outline: none;
+        border-radius: 16px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 18px;
+        color: #ABABAB;
+    }
+
+    button {
+        width: 220px;
+        margin-left: 6px;
+        padding-top: 28px;
+        padding-bottom: 29px;
+        background-color: #274C5B;
+        border: 1px solid #274C5B;
+        border-radius: 16px;
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: #fff;
+    }
+}

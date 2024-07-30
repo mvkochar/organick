@@ -5,6 +5,7 @@ import ProductsItem from '../components/ProductsItem/ProductsItem'
 import PostsList from '../components/PostsList/PotstsList'
 import BlogItem from '../components/BlogItem/BlogItem'
 import { title } from 'process'
+import Newsletter from '../components/Newsletter/Newsletter'
 
 const Home = () => {
   return (
@@ -238,6 +239,8 @@ const Home = () => {
           }
         </div>
       </div>
+      <Newsletter/>
+      <div style={{marginBottom: "117px"}}></div>
     </>
   )
 }
