@@ -1,0 +1,36 @@
+.team_member {
+    width: 449px;
+}
+
+.team_member_details {
+    padding-top: 35px;
+    padding-bottom: 34px;
+    padding-left: 28px;
+    padding-right: 28.74px;
+    background-color: #F9F8F8;
+
+    &:hover {
+        background: #FFFFFF;
+        box-shadow: 0px 29px 44px rgba(150, 150, 150, 0.25);
+    }
+}
+
+.team_member_name {
+    margin-bottom: 2px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    color: #274C5B;
+}
+
+.team_member_pos {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-size: 22px;
+    color: #7EB693;
+}
+
+.team_member_social {
+    display: flex;
+    gap: 17px;
+}

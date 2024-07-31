@@ -41,11 +41,151 @@
     }
 }
 
-.about-creative-desc {
+.about-creative-desc,
+.about-choose-desc,
+.about-team-desc {
     width: 610px;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     line-height: 1.6;
+    font-size: 18px;
     color: #525C60;
 }
 
+.about-creative-points {
+    margin-top: 48px;
+    margin-bottom: 58px;
+    gap: 65px;
+
+    .creative-points-item {
+        padding-left: 66px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        color: #274C5B;
+
+        &:nth-child(1) {
+            background: url("/public/images/creative-points1.svg") no-repeat;
+        }
+
+        &:nth-child(2) {
+            background: url("/public/images/creative-points2.svg") no-repeat;
+        }
+    }
+}
+
+.about-choose {
+    margin-top: 143px;
+    padding: 190px 260px;
+    background-color: #F9F8F8;
+}
+
+.about-choose-desc {
+    width: 659px;
+    margin-top: 25px;
+}
+
+.about-choose-points {
+    margin-top: 36px;
+    flex-direction: column;
+    gap: 24px;
+
+    dl {
+        dt {
+            width: fit-content;
+            padding-top: 29px;
+            padding-bottom: 29px;
+            padding-left: 27px;
+            padding-right: 91px;
+            background-color: #ECECEC;
+            border-radius: 49px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            color: #274C5B;
+        }
+
+        dd {
+            width: 504px;
+            margin-top: 12px;
+            margin-left: 60px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            line-height: 1.6;
+            font-size: 18px;
+            color: #525C60;
+        }
+    }
+}
+
+.about-choose-advantages {
+    margin-top: 91px;
+    margin-left: 141px;
+    margin-right: 141px;
+
+    .choose-advantages-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 257px;
+        height: 335px;
+        padding-top: 50px;
+        padding-bottom: 19px;
+        background-color: #fff;
+        border-radius: 30px;
+        text-align: center;
+
+        .advatages-item-title {
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-size: 25px;
+            color: #274C5B;
+        }
+
+        .advantages-item-desc {
+            width: 184px;
+            margin: 0 auto;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            line-height: 1.6;
+            font-size: 18px;
+            color: #525C60;
+        }
+    }
+}
+
+.about-team {
+    margin-top: 177px;
+    margin-left: 250px;
+    margin-right: 259px;
+}
+
+.about-team-desc {
+    width: 852px;
+    margin: 16px auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.about-team-box {
+    margin-top: 42px;
+}
+
+.about-offer {
+    margin-top: 202px;
+    padding: 180px 260px;
+    background-color: #274C5B;
+}
+
+.about-offer-box {
+    margin-top: 33px;
+}
+
+.about-offer-title {
+    margin-top: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+}
