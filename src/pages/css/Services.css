@@ -1,0 +1,89 @@
+.services-main {
+    padding-top: 184px;
+    padding-bottom: 184px;
+    background: url("/public/images/services-main-bg.png") no-repeat;
+}
+
+.services-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    text-align: center;
+    color: #274C5B;
+}
+
+.services-bl-above {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: #68A47F;
+}
+
+.services-bl-title {
+    margin-top: 8px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #274C5B;
+}
+
+.services-better {
+    margin-top: 202px;
+    
+    .action-wr {
+      margin: 0 auto;
+    }
+}
+
+.services-better-content  {
+    margin-left: 261px;
+    margin-right: 260px;
+}
+
+.services-better-points {
+    flex-direction: column;
+    gap: 39px;
+
+    dl {
+        text-align: right;
+
+        dt {
+            margin-top: 5px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-size: 25px;
+            color: #274C5B;
+        }
+
+        dd {
+            width: 396px;
+            margin-top: 5px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            line-height: 1.6;
+            font-size: 18px;
+            color: #525C60;
+        }
+
+    }
+}
+
+.services-videos {
+    margin-top: 201px;
+    padding-top: 179px;
+    padding-bottom: 538px;
+    background: url('/public/images/services-videos-bg.png') no-repeat;
+}
+
+.services-videos-desc {
+    width: 671px;
+    margin: 24px auto;
+    margin-bottom: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 18px;
+    text-align: center;
+    color: #274C5B;
+}
+
