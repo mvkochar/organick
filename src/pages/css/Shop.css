@@ -1,0 +1,21 @@
+.shop-main {
+    padding-top: 184px;
+    padding-bottom: 184px;
+    background: url("/public/images/shop-main-bg.png") no-repeat;
+}
+
+.shop-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    text-align: center;
+    color: #274C5B;
+}
+
+.shop-box {
+    margin-top: 90px;
+    margin-left: 260px;
+    margin-right: 260px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}

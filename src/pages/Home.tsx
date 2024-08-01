@@ -8,6 +8,17 @@ import { title } from 'process'
 import Newsletter from '../components/Newsletter/Newsletter'
 
 const Home = () => {
+  const [moreProducts, setMoreProducts] = React.useState(false)
+  const handleMoreProducts = () => {
+    setMoreProducts((prevState) => {
+      return (
+        !prevState
+      )
+    })
+  }
+
+  let maxProducts = moreProducts ? ProductsList.length : 8
+
   return (
     <>
       <main className='home-main'>
@@ -68,7 +79,7 @@ const Home = () => {
         <h2 className="home-bl-title">Our Products</h2>
         <div className="home-products-box d-f jc-sb">
           {
-            ProductsList.map((product) => {
+            ProductsList.filter((elem)=> elem.id < maxProducts).map((product) => {
               return (
                 <ProductsItem
                   id={product.id}
@@ -85,8 +96,10 @@ const Home = () => {
           }
         </div>
         <div className="action-wr d-f jc-sb align-center action-wr__dark">
-          <div className="action-text">Load More</div>
-          <button className='btn-clear d-b'><img src="/images/arrow.png" alt="Arrow" /></button>
+          <div className="action-text">{moreProducts ? "Less Products" : "Load More"}</div>
+          <button className='btn-clear d-b' onClick={handleMoreProducts}>
+            <img src="/images/arrow.png" alt="Arrow" />
+          </button>
         </div>
       </section>
       <section className='home-testimonial'>
@@ -223,7 +236,7 @@ const Home = () => {
         </div>
         <div className="home-blog-box d-f">
           {
-            PostsList.filter((elem) => elem.id < 2).map((post)=> {
+            PostsList.filter((elem) => elem.id < 2).map((post) => {
               return (
                 <BlogItem
                   id={post.id}
@@ -239,8 +252,8 @@ const Home = () => {
           }
         </div>
       </div>
-      <Newsletter/>
-      <div style={{marginBottom: "117px"}}></div>
+      <Newsletter />
+      <div style={{ marginBottom: "117px" }}></div>
     </>
   )
 }

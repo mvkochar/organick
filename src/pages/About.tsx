@@ -2,6 +2,7 @@ import React from 'react'
 import './css/About.css'
 import TeamMembersList from '../components/TeamMembersList/TeamMembersList'
 import TeamMember from '../components/TeamMember/TeamMember'
+import Newsletter from '../components/Newsletter/Newsletter'
 
 const About = () => {
     return (
@@ -135,6 +136,7 @@ const About = () => {
                     </div>
                 </div>
             </section>
+            <Newsletter/>
             <div style={{ marginBottom: "202px" }}></div>
         </>
     )

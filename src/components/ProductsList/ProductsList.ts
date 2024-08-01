@@ -98,6 +98,49 @@ const ProductsList:TProduct[] = [
         rating: 5
     },
 
+    {
+        id: 8,
+        category: 'Health',
+        image: '/images/catalog/9.png',
+        title: 'Mung Bean',
+        isSale: true,
+        salePrice: '11.00',
+        price: '20.00',
+        rating: 5
+    },
+
+    {
+        id: 9,
+        category: 'Nuts',
+        image: '/images/catalog/10.png',
+        title: 'White Hazelnut',
+        isSale: true,
+        salePrice: '12.00',
+        price: '20.00',
+        rating: 5
+    },
+
+    {
+        id: 10,
+        category: 'Fresh',
+        image: '/images/catalog/11.png',
+        title: 'Fresh Corn',
+        isSale: true,
+        salePrice: '17.00',
+        price: '20.00',
+        rating: 5
+    },
+
+    {
+        id: 11,
+        category: 'Fresh',
+        image: '/images/catalog/12.png',
+        title: 'Organic Almonds',
+        isSale: true,
+        salePrice: '15.00',
+        price: '20.00',
+        rating: 5
+    },
     
 ] 
 
