@@ -1,0 +1,22 @@
+.team-main {
+    padding-top: 184px;
+    padding-bottom: 184px;
+    background: url("/public/images/team-main-bg.png") no-repeat;
+}
+
+.team-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    text-align: center;
+    color: #274C5B;
+}
+
+.team-box {
+    margin-top: 42px;
+    margin-bottom: -100px;
+    margin-left: 260px;
+    margin-right: 259px;
+    flex-wrap: wrap;
+    row-gap: 42px;
+}

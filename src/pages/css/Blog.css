@@ -1,0 +1,22 @@
+.blog-main {
+    padding-top: 184px;
+    padding-bottom: 184px;
+    background: url("/public/images/blog-main-bg.png") no-repeat;
+}
+
+.blog-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    text-align: center;
+    color: #274C5B;
+}
+
+.blog-content {
+    margin-top: 120px;
+    margin-bottom: -100px;
+    margin-left: 260px;
+    margin-right: 260px;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
