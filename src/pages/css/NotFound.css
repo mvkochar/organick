@@ -1,0 +1,32 @@
+.nf-main {
+    height: 898px;
+    margin-bottom: 100px;
+    padding-top: 214px;
+    padding-bottom: 214px;
+    padding-left: 60%;
+    background: url("/public/images/nf-main-bg.png") no-repeat;
+}
+
+.nf-main-content {
+    width: 533px;
+    text-align: center;
+}
+
+.nf-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    text-align: center;
+    color: #274C5B;
+}
+
+.nf-subtitle {
+    margin-bottom: 89px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    line-height: 1.7;
+    font-size: 18px;
+    color: #525C60;
+}
+
+

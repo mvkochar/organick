@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -40,7 +41,7 @@ const Footer = () => {
           <nav>
             <ul className="footer-nav">
               <li><a href="">Style Guide</a></li>
-              <li><a href="">404 Not Found</a></li>
+              <li><Link to="/nf">404 Not Found</Link></li>
               <li><a href="">Password Protected</a></li>
               <li><a href="">Licences</a></li>
               <li><a href="">Changelog</a></li>
