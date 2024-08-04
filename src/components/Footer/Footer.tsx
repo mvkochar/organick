@@ -42,9 +42,9 @@ const Footer = () => {
             <ul className="footer-nav">
               <li><a href="">Style Guide</a></li>
               <li><Link to="/nf">404 Not Found</Link></li>
-              <li><a href="">Password Protected</a></li>
-              <li><a href="">Licences</a></li>
-              <li><a href="">Changelog</a></li>
+              <li><Link to="/protect">Password Protected</Link></li>
+              <li><Link to="/licenses">Licences</Link></li>
+              <li><Link to="/changelog">Changelog</Link></li>
             </ul>
           </nav>
         </div>

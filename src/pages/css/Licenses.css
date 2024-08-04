@@ -1,0 +1,70 @@
+.licenses-main {
+    padding-top: 81px;
+    padding-bottom: 83px;
+    background: #FAFAFA url("/public/images/licenses-main-bg.png") no-repeat;
+}
+
+.licenses-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    text-align: center;
+    color: #274C5B;
+}
+
+.licenses-content {
+    margin-top: 150px;
+    margin-left: 260px;
+    margin-right: 405px;
+    margin-bottom: -30px;
+    flex-direction: column;
+    gap: 100px;
+
+    .text-green {
+        color: #7EB693;
+    }
+
+    .text-bold {
+        font-weight: 700;
+    }
+}
+
+.licenses-content-item {
+    .content-item-title {
+        width: 285px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        color: #274C5B;
+        flex-grow: 1;
+    }
+
+    .content-item-desc {
+        width: 831px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        line-height: 1.6;
+        font-size: 18px;
+        color: #525C60;
+    }
+
+    .content-item-points {
+        margin-top: 45px;
+        flex-direction: column;
+        gap: 45px;
+
+        dl {
+            dt {
+                font-family: "Roboto", sans-serif;
+                font-weight: 900;
+                font-size: 30px;
+                color: #274C5B;
+            }
+
+            dd {
+                margin-top: 11px;
+                color: #274C5B;
+            }
+        }
+    }
+}
