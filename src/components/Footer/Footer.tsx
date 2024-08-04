@@ -40,7 +40,7 @@ const Footer = () => {
           <h3 className="footer-bl-title">Utility Pages</h3>
           <nav>
             <ul className="footer-nav">
-              <li><a href="">Style Guide</a></li>
+              <li><Link to="/style-guid">Style Guide</Link></li>
               <li><Link to="/nf">404 Not Found</Link></li>
               <li><Link to="/protect">Password Protected</Link></li>
               <li><Link to="/licenses">Licences</Link></li>

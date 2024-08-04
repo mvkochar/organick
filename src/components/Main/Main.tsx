@@ -1,6 +1,9 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { About, Blog, Changelog, Contact, Home, Licenses, NotFound, Portfolio, Protect, Services, Shop, Team } from '../../pages'
+import {
+  About, Blog, Changelog, Contact, Home, Licenses, NotFound, Portfolio,
+  Protect, Services, Shop, StyleGuid, Team
+} from '../../pages'
 
 const Main = () => {
   return (
@@ -19,39 +22,43 @@ const Main = () => {
       />
       <Route
         path='services'
-        element={<Services/>}
+        element={<Services />}
       />
       <Route
         path='portfolio'
-        element={<Portfolio/>}
+        element={<Portfolio />}
       />
       <Route
         path='team'
-        element={<Team/>}
+        element={<Team />}
       />
       <Route
         path='blog'
-        element={<Blog/>}
+        element={<Blog />}
       />
       <Route
         path='contact'
-        element={<Contact/>}
+        element={<Contact />}
       />
       <Route
         path='/*'
-        element={<NotFound/>}
+        element={<NotFound />}
       />
       <Route
         path='licenses'
-        element={<Licenses/>}
+        element={<Licenses />}
       />
       <Route
         path='changelog'
-        element={<Changelog/>}
+        element={<Changelog />}
       />
       <Route
         path='protect'
-        element={<Protect/>}
+        element={<Protect />}
+      />
+      <Route
+        path='style-guid'
+        element={<StyleGuid />}
       />
     </Routes>
   )

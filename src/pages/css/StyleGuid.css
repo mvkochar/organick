@@ -1,0 +1,21 @@
+.guid-main {
+    padding-top: 203px;
+    padding-bottom: 205px;
+    background: #FAFAFA url("/public/images/guid-main-bg.png") no-repeat;
+}
+
+.guid-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: #274C5B;
+}
+
+.guid-content {
+    margin-top: 120px;
+    margin-left: 260px;
+    margin-right: 366px;
+    flex-direction: column;
+    gap: 250px;
+}
