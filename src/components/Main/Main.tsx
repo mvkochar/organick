@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import {
   About, Blog, Changelog, Contact, Home, Licenses, NotFound, Portfolio,
-  Protect, Services, Shop, StyleGuid, Team
+  Product, Protect, Services, Shop, StyleGuid, Team
 } from '../../pages'
 
 const Main = () => {
@@ -59,6 +59,10 @@ const Main = () => {
       <Route
         path='style-guid'
         element={<StyleGuid />}
+      />
+      <Route
+        path='product/:id'
+        element={<Product />}
       />
     </Routes>
   )

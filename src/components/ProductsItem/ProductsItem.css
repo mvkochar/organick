@@ -39,6 +39,13 @@
 .products-item-price {
     gap: 8px;
 
+    .current-price {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #274C5B;
+    }
+
     .old-price {
         font-family: "Open Sans", sans-serif;
         font-weight: 600;
@@ -46,11 +53,5 @@
         text-decoration: line-through;
         color: #B8B8B8;
     }
-
-    .curent-price {
-        font-family: "Open Sans", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        color: #274C5B;
-    }
 }
+

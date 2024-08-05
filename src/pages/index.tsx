@@ -11,5 +11,6 @@ import Licenses from "./Licenses";
 import Changelog from "./Changelog";
 import Protect from "./Protect";
 import StyleGuid from "./StyleGuid";
+import Product from "./Product";
 
-export {Home, About, Shop, Services, Portfolio, Team, Blog, Contact, NotFound, Licenses, Changelog, Protect, StyleGuid}
+export {Home, About, Shop, Services, Portfolio, Team, Blog, Contact, NotFound, Licenses, Changelog, Protect, StyleGuid, Product}

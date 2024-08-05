@@ -12,23 +12,23 @@ const Shop = () => {
             </main>
             <div className="shop-box d-f jc-sb">
                 {
-                    ProductsList.map((product)=> {
+                    ProductsList.map((product) => {
                         return (
                             <ProductsItem
-                            id={product.id}
-                            category={product.category}
-                            image={product.image}
-                            title={product.title}
-                            isSale={product.isSale}
-                            salePrice={product.salePrice}
-                            price={product.price}
-                            rating={product.rating}
-                          />
+                                id={product.id}
+                                category={product.category}
+                                image={product.image}
+                                title={product.title}
+                                isSale={product.isSale}
+                                salePrice={product.salePrice}
+                                price={product.price}
+                                rating={product.rating}
+                            />
                         )
                     })
                 }
             </div>
-            <Newsletter/>
+            <Newsletter />
             <div style={{ marginBottom: "120px" }}></div>
         </>
     )

@@ -1,0 +1,113 @@
+.product-main {
+    padding-top: 184px;
+    padding-bottom: 184px;
+    background: #F3F2F7 url("/public/images/product-main-bg.png") no-repeat;
+}
+
+.product-main-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    text-align: center;
+    color: #274C5B;
+}
+
+.product-content {
+    margin-top: 133px;
+    margin-left: 261px;
+    margin-right: 322px;
+    gap: 88px;
+}
+
+.product-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #274C5B;
+}
+
+.product-rating {
+    margin-top: 9px;
+}
+
+.product-price {
+    margin-top: 9x;
+    gap: 8px;
+
+    .old-price {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        text-decoration: line-through;
+        color: #B8B8B8;
+    }
+
+    .current-price {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        color: #274C5B;
+    }
+}
+
+.product-cat {
+    margin-top: 8px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #274C5B;
+}
+
+.product-desc {
+    width: 658px;
+    margin-top: 27px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #525C60;
+}
+
+.product-quantity {
+    margin-top: 35px;
+}
+
+.product-quantity-title,
+.product-quantity-count {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #274C5B;
+}
+
+.product-quantity-count {
+    display: block;
+    width: 134px;
+    height: 80px;
+    margin-left: 22px;
+    margin-right: 20px;
+    padding-top: 28px;
+    border: 2px solid #274C5B;
+    border-radius: 16px;
+    text-align: center;
+    resize: none;
+}
+
+.product-related {
+    margin-top: 80px;
+    margin-bottom: -40px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+.product-related-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: #274C5B;
+} 
+
+.product-related-box {
+    margin-top: 40px;
+}

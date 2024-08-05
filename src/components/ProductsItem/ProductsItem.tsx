@@ -1,5 +1,6 @@
 import React from 'react'
 import './ProductsItem.css'
+import { Link } from 'react-router-dom'
 
 type ProductsItemProps = {
     id: number
@@ -18,7 +19,7 @@ const ProductsItem = ({ id, category, image, title, isSale,
     return (
         <div className='products-item d-f jc-sb' style={{ backgroundColor: bgcolor }}>
             <div className="products-item-category">{category}</div>
-            <div><img src={image} alt="product" width={335} height={324} /></div>
+            <div><Link to={`/product/${id}`}><img src={image} alt="product" width={335} height={324} /></Link></div>
             <div className="products-item-title">{title}</div>
             <div className="products-item-info d-f jc-sb align-center">
                 <div className="products-item-price d-f align-center">
