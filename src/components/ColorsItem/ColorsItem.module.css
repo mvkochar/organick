@@ -1,0 +1,14 @@
+.color_rect {
+    width: 139px;
+    height: 148px;
+    border-radius: 11px;
+}
+
+.color_value {
+    margin-top: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #274C5B;
+}
