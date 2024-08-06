@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import {
   About, Blog, Changelog, Contact, Home, Licenses, NotFound, Portfolio,
-  Product, Protect, Service, Services, Shop, StyleGuid, Team
+  PortfolioSingle, Product, Protect, Service, Services, Shop, StyleGuid, Team
 } from '../../pages'
 
 const Main = () => {
@@ -67,6 +67,10 @@ const Main = () => {
       <Route
         path='service/:id'
         element={<Service />}
+      />
+      <Route
+        path='portfolio-single/:id'
+        element={<PortfolioSingle />}
       />
     </Routes>
   )

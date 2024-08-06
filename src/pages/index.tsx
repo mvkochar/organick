@@ -13,8 +13,9 @@ import Protect from "./Protect";
 import StyleGuid from "./StyleGuid";
 import Product from "./Product";
 import Service from "./Service";
+import PortfolioSingle from "./PortfolioSingle";
 
 export {
     Home, About, Shop, Services, Portfolio, Team, Blog, Contact, NotFound,
-    Licenses, Changelog, Protect, StyleGuid, Product, Service
+    Licenses, Changelog, Protect, StyleGuid, Product, Service, PortfolioSingle
 }
