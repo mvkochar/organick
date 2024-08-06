@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import {
   About, Blog, Changelog, Contact, Home, Licenses, NotFound, Portfolio,
-  Product, Protect, Services, Shop, StyleGuid, Team
+  Product, Protect, Service, Services, Shop, StyleGuid, Team
 } from '../../pages'
 
 const Main = () => {
@@ -63,6 +63,10 @@ const Main = () => {
       <Route
         path='product/:id'
         element={<Product />}
+      />
+      <Route
+        path='service/:id'
+        element={<Service />}
       />
     </Routes>
   )

@@ -1,0 +1,99 @@
+.service-main {
+    padding-top: 184px;
+    padding-bottom: 184px;
+    background: #FAFAFA url("/public/images/service-main-bg.png") no-repeat;
+}
+
+.service-title,
+.service-content-title,
+.service-farm-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    text-align: center;
+    color: #274C5B;
+}
+
+.service-img {
+    margin-top: 182px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+.service-content {
+    margin-top: 78px;
+    margin-left: 492px;
+    margin-right: 492px;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.service-content-title {
+    font-size: 50px;
+    text-align: left;
+}
+
+.service-content-desc {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #525C60;
+}
+
+.service-about {
+    gap: 20px;
+}
+
+.service-about-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #274C5B;
+}
+
+.service-about-text {
+    width: 537px;
+    padding: 63px 45px;
+    background-color: #F9F8F8;
+    border-radius: 20px;
+}
+
+.service-farm-title {
+    font-size: 35px;
+    text-align: left;
+}
+
+.service-points {
+    gap: 25px;
+}
+
+.service-points-item {
+    width: 390px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 17px;
+    background-color: #F9F8F8;
+    border-radius: 100px;
+    gap: 20px;
+
+    .points-item-num {
+        width: 69px;
+        height: 69px;
+        padding-top: 20px;
+        background-color: #7EB693;
+        border-radius: 100%;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .points-item-title {
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        color: #274C5B;
+    }
+}

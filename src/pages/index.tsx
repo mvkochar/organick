@@ -12,5 +12,9 @@ import Changelog from "./Changelog";
 import Protect from "./Protect";
 import StyleGuid from "./StyleGuid";
 import Product from "./Product";
+import Service from "./Service";
 
-export {Home, About, Shop, Services, Portfolio, Team, Blog, Contact, NotFound, Licenses, Changelog, Protect, StyleGuid, Product}
+export {
+    Home, About, Shop, Services, Portfolio, Team, Blog, Contact, NotFound,
+    Licenses, Changelog, Protect, StyleGuid, Product, Service
+}
