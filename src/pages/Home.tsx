@@ -4,7 +4,6 @@ import ProductsList from '../components/ProductsList/ProductsList'
 import ProductsItem from '../components/ProductsItem/ProductsItem'
 import PostsList from '../components/PostsList/PotstsList'
 import BlogItem from '../components/BlogItem/BlogItem'
-import { title } from 'process'
 import Newsletter from '../components/Newsletter/Newsletter'
 import { Link } from 'react-router-dom'
 
@@ -24,7 +23,7 @@ const Home = () => {
     <>
       <main className='home-main'>
         <div className="home-bl-above">100% Natural Food</div>
-        <h1 className="home-bl-title">Choose the best <br /> healthier way <br /> of life</h1>
+        <h1 className="home-bl-title">Choose thite best <br /> healthier way <br /> of life</h1>
         <div className="action-wr d-f jc-sb align-center action-wr__light">
           <div className="action-text">Explore Now</div>
           <a><img src="/images/arrow.png" alt="Arrow" /></a>
