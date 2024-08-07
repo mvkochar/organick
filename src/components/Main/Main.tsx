@@ -1,11 +1,15 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import {
-  About, Blog, Changelog, Contact, Home, Licenses, NotFound, Portfolio,
+  About, Blog, BlogSingle, Changelog, Contact, Home, Licenses, NotFound, Portfolio,
   PortfolioSingle, Product, Protect, Service, Services, Shop, StyleGuid, Team
 } from '../../pages'
 
-const Main = () => {
+type MainProps = {
+  handleProductsCount: ()=>void
+}
+
+const Main = ({handleProductsCount}:MainProps) => {
   return (
     <Routes>
       <Route
@@ -62,7 +66,7 @@ const Main = () => {
       />
       <Route
         path='product/:id'
-        element={<Product />}
+        element={<Product handleProductsCount={handleProductsCount} />}
       />
       <Route
         path='service/:id'
@@ -71,6 +75,10 @@ const Main = () => {
       <Route
         path='portfolio-single/:id'
         element={<PortfolioSingle />}
+      />
+      <Route
+        path='blog-single/:id'
+        element={<BlogSingle />}
       />
     </Routes>
   )

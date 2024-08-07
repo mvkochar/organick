@@ -81,3 +81,41 @@
         }
     }
 }
+
+.portfolio-single-content {
+    margin-top: 68px;
+    margin-bottom: -65px;
+    margin-left: 492px;
+    margin-right: 491px;
+
+    .content-bl-title {
+        margin-bottom: 24px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-size: 35px;
+        color: #274C5B;
+    }
+
+    .content-bl-desc {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        color: #525C60;
+    }
+
+}
+
+.portfolio-single-img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    .img-label {
+        margin-top: 19px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        color: #525C60;
+    }
+}

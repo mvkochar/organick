@@ -1,5 +1,6 @@
 import React from 'react'
 import './BlogItem.css'
+import { Link } from 'react-router-dom'
 
 type BlogItemProps = {
     id: number
@@ -23,7 +24,7 @@ const BlogItem = ({ id, image, date, month, authorName, title, description }: Bl
                 <p className="blog-item-desc">{description}</p>
                 <div className="action-wr d-f jc-sb align-center action-wr__light">
                     <div className="action-text">Read More</div>
-                    <a><img src="/images/arrow.png" alt="Arrow" /></a>
+                    <Link to={`/blog-single/${id}`}><img src="/images/arrow.png" alt="Arrow" /></Link>
                 </div>
             </div>
         </div>

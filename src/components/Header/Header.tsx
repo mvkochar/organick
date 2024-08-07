@@ -2,7 +2,11 @@ import React from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
 
-const Header = () => {
+type HeaderProps = {
+  productsCount: number
+}
+
+const Header = ({productsCount}:HeaderProps) => {
   return (
     <header className='header d-f jc-sb align-center'>
       <div className='d-f align-center'>
@@ -27,7 +31,7 @@ const Header = () => {
         </form>
         <div className="header-cart d-f jc-sb align-center">
            <div><img src="/images/cart.png" alt="Cart icon" /></div>
-           <a href="" className="header-cart-link">Cart (0)</a>
+           <a href="" className="header-cart-link">Cart ({productsCount})</a>
         </div>
       </div>
     </header>

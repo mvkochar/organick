@@ -5,7 +5,11 @@ import ProductsList from '../components/ProductsList/ProductsList'
 import Newsletter from '../components/Newsletter/Newsletter'
 import ProductsItem from '../components/ProductsItem/ProductsItem'
 
-const Product = () => {
+type ProductProps = {
+    handleProductsCount: ()=>void
+}
+
+const Product = ({handleProductsCount}:ProductProps) => {
     const { id } = useParams<string>()
     let a = id ? id : '0'
     let index = parseInt(a)
@@ -95,7 +99,7 @@ const Product = () => {
                         <textarea className="product-quantity-count" placeholder='1'></textarea>
                         <div className="action-wr d-f jc-sb align-center action-wr__dark">
                             <div className="action-text">Add to Cart</div>
-                            <button className='btn-clear d-b'>
+                            <button className='btn-clear d-b' onClick={handleProductsCount}>
                                 <img src="/images/arrow.png" alt="Arrow" />
                             </button>
                         </div>

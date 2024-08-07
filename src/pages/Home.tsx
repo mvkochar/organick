@@ -6,6 +6,7 @@ import PostsList from '../components/PostsList/PotstsList'
 import BlogItem from '../components/BlogItem/BlogItem'
 import { title } from 'process'
 import Newsletter from '../components/Newsletter/Newsletter'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   const [moreProducts, setMoreProducts] = React.useState(false)
@@ -70,7 +71,7 @@ const Home = () => {
           </div>
           <div className="action-wr d-f jc-sb align-center action-wr__dark">
             <div className="action-text">Shop Now</div>
-            <a><img src="/images/arrow.png" alt="Arrow" /></a>
+            <Link to={"/shop"}><img src="/images/arrow.png" alt="Arrow" /></Link>
           </div>
         </div>
       </section>
